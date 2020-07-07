@@ -1,0 +1,43 @@
+/*
+Estilo CSS
+*/
+/* 
+    Created on : 06/07/2020, 12:24:42
+    Author     : Pereira
+*/
+fieldset{
+    background-color:#66ffff; 
+    width: 300px;
+    height: 250px;
+    
+}
+legend{
+    font-weight: bold;
+    font-family: "Segoe UI","Arial","Times New Roman";
+}
+#formulario label{
+    position: absolute;
+    left:5px;
+    margin-right: 5px;
+}
+#formulario input.login{
+    background-color: #ccffff;
+    position: absolute;
+    left: 100px;
+    top:105px;
+    width: 225px;
+}
+#formulario input.senha{
+    background-color: #ccffff;
+    position: absolute;
+    left: 100px;
+    top: 40px
+    width: 225px;
+}
+#formulario input.submit{
+    border-style:dashed;
+    position: absolute;
+    bottom: 0.1em
+    right: 10px;
+    background-color:#00cccc;
+}
